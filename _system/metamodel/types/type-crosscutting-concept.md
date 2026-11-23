@@ -7,7 +7,6 @@ prefix: CC
 folder: wiki/crosscutting-concepts
 template: _templates/crosscutting-concept.md
 label: Crosscutting concept
-label_de: Querschnittliches Konzept
 block: A5
 lifecycle: content
 stereotypes: []

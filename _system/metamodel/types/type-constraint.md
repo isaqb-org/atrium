@@ -7,7 +7,6 @@ prefix: CON
 folder: wiki/constraints
 template: _templates/constraint.md
 label: Constraint
-label_de: Randbedingung
 block: C2
 lifecycle: content
 stereotypes: []

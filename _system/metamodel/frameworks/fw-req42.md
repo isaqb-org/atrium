@@ -5,12 +5,12 @@ name: req42
 aliases: [fw-req42]
 area: requirements
 blocks:
-  - {id: R1, number: "01", title: "Vision & Goals", title_de: "Visionen und Ziele", types: [goal], scope: in}
-  - {id: R2, number: "09", title: "Resources & Staff", title_de: "Betriebsmittel und Personal", types: [], scope: out}
-  - {id: R3, number: "04", title: "Functional Requirements", title_de: "Funktionale Anforderungen", types: [functional-requirement], scope: in, note: "called Product Backlog until the 2026 edition"}
-  - {id: R4, number: "05", title: "Supporting Models", title_de: "Modelle zur Unterstützung", types: [activity-model], projections: [entity-diagram], scope: in}
-  - {id: R5, number: "10", title: "Team Structure", title_de: "Teamstruktur", types: [], scope: out}
-  - {id: R6, number: "11", title: "Roadmap", title_de: "Roadmaps", types: [], scope: out}
+  - {id: R1, number: "01", title: "Vision & Goals", types: [goal], scope: in}
+  - {id: R2, number: "09", title: "Resources & Staff", types: [], scope: out}
+  - {id: R3, number: "04", title: "Functional Requirements", types: [functional-requirement], scope: in, note: "called Product Backlog until the 2026 edition"}
+  - {id: R4, number: "05", title: "Supporting Models", types: [activity-model], projections: [entity-diagram], scope: in}
+  - {id: R5, number: "10", title: "Team Structure", types: [], scope: out}
+  - {id: R6, number: "11", title: "Roadmap", types: [], scope: out}
 ---
 
 # Framework: req42

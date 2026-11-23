@@ -7,7 +7,6 @@ prefix: BB
 folder: wiki/building-blocks
 template: _templates/building-block.md
 label: Building block
-label_de: Baustein
 block: A2
 lifecycle: content
 stereotypes: []

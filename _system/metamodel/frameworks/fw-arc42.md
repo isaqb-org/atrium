@@ -5,11 +5,11 @@ name: arc42
 aliases: [fw-arc42]
 area: architecture
 blocks:
-  - {id: A1, title: "Solution Strategy", title_de: "Lösungsstrategie", types: [solution-strategy], scope: in}
-  - {id: A2, title: "Building Block View", title_de: "Bausteinsicht", types: [building-block], scope: in}
-  - {id: A3, title: "Deployment View", title_de: "Verteilungssicht", types: [deployment-node], projections: [deployment-diagram], scope: in}
-  - {id: A4, title: "Runtime View", title_de: "Laufzeitsicht", types: [runtime-scenario], scope: in}
-  - {id: A5, title: "Crosscutting Concepts", title_de: "Querschnittliche Konzepte", types: [crosscutting-concept], scope: in}
+  - {id: A1, title: "Solution Strategy", types: [solution-strategy], scope: in}
+  - {id: A2, title: "Building Block View", types: [building-block], scope: in}
+  - {id: A3, title: "Deployment View", types: [deployment-node], projections: [deployment-diagram], scope: in}
+  - {id: A4, title: "Runtime View", types: [runtime-scenario], scope: in}
+  - {id: A5, title: "Crosscutting Concepts", types: [crosscutting-concept], scope: in}
 ---
 
 # Framework: arc42

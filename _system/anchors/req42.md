@@ -29,15 +29,14 @@ The 12 drawers fall into three groups: **Clean Start** (01 Business Goals · 09 
 
 ## The 12 sections → where they live here
 
-req42's own section names are German in origin (Hruschka & Meuten); this vault names
-them in English throughout, per its ubiquitous-language decision.
+This vault names req42's sections in English throughout.
 
 | # | req42 section | Home in this vault |
 |---|-------------|--------------------|
 | 01 | Business Goals | `wiki/goals/` — one type, `stereotype: vision\|objective`; the vision is the roof, objectives hang under it via `parent:`; framed via [[PAM]] (req42's primary notation), promoted to [[SMART]] once a horizon is set |
 | 02 | Stakeholders | `wiki/stakeholders/` |
 | 03 | Scope | `wiki/context/` (boundary, in/out-of-scope) + `wiki/external-interfaces/` (neighbours) |
-| 04 | Functional Requirements (DE: Funktionale Anforderungen; called "Product Backlog" until the 2026 edition) | `wiki/functional-requirements/` — one type with notation-specific `level:` vocabularies; Agile defaults to **Epic → Feature → Story**, Cockburn use cases are FRs too; hierarchy via `parent:` and projected as a [[story-mapping\|story map]]; [[user-story-format]], [[acceptance-criteria]], [[INVEST]], [[MoSCoW]] |
+| 04 | Functional Requirements (called "Product Backlog" until the 2026 edition) | `wiki/functional-requirements/` — one type with notation-specific `level:` vocabularies; Agile defaults to **Epic → Feature → Story**, Cockburn use cases are FRs too; hierarchy via `parent:` and projected as a [[story-mapping\|story map]]; [[user-story-format]], [[acceptance-criteria]], [[INVEST]], [[MoSCoW]] |
 | 05 | Supporting Models | `wiki/activity-models/` and [[proj-entity-diagram|entity diagram]] |
 | 06 | Quality Requirements | `wiki/quality-requirements/` (ISO 25010 + ATAM) |
 | 07 | Constraints | `wiki/constraints/` (arc42 categories) |

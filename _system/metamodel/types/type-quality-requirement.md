@@ -7,7 +7,6 @@ prefix: QR
 folder: wiki/quality-requirements
 template: _templates/quality-requirement.md
 label: Quality requirement
-label_de: Qualitätsanforderung
 block: C1
 lifecycle: content
 stereotypes: []

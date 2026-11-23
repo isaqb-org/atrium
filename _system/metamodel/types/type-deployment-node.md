@@ -7,7 +7,6 @@ prefix: DN
 folder: wiki/deployment-nodes
 template: _templates/deployment-node.md
 label: Deployment node
-label_de: Infrastrukturelement
 block: A3
 lifecycle: content
 stereotypes: [environment, host, container, service]

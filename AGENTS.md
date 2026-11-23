@@ -71,14 +71,15 @@ never block or silently rewrite. The human decides.
 
 ## Conventions
 
-- **Language**: The ubiquitous language of this wiki is **English**
-  — a per-project choice, recorded as a Constraint. Every requirement page —
-  domain terms, goals, stakeholders, activity models, use cases, stories,
-  features, quality requirements, constraints, decision records, issues — is
-  written in English. You may
-  converse and ask clarifying questions in **any language** the human prefers,
-  but all captured requirement content stays EN. `_system/` machinery and
-  `_system/anchors/` (method, not domain) are English too.
+- **Language**: everything is English: titles, headings, body text,
+  IDs, filenames, wikilink targets, frontmatter keys and values. Write plain,
+  human English: no machine jargon, no marketing words. You may converse in any
+  language the human prefers. `_system/`, `_templates/`, anchors, the metamodel
+  and decision records are English as well.
+- **Writing style**: `_system/writing-style.md` is binding for every text you
+  write here: wiki pages, docs, decision records, changelog, log, commit
+  messages. Read it before you write. Its first aim is text short enough for a
+  human to review completely.
 - **Grill before capture** (formerly "ingest"): Every capture is gated by a grilling pass. Before writing
   any page from a new source you **must** activate the `grill-requirements` skill
   to stress-test the material first. A second, different pass closes the capture:

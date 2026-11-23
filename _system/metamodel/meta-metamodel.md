@@ -41,7 +41,7 @@ A kind of page the wiki stores: one folder, one template, one ID prefix.
 | `prefix` | ID prefix, e.g. `FR` |
 | `folder` | where instances live, e.g. `wiki/functional-requirements` |
 | `template` | the `_templates/` file instances are written from |
-| `label`, `label_de` | English and German display names |
+| `label` | display name |
 | `block` | the framework block it belongs to (`R3`, `C4`, …) or `null` |
 | `lifecycle` | which status list applies: `content`, `issue`, `source` |
 | `stereotypes` | closed list of sub-kinds inside the one type, or `[]` |
@@ -75,7 +75,7 @@ types that live in it and whether it is captured.
 | key | meaning |
 |-----|---------|
 | `area` | the dashboard area key (`requirements`, `architecture`, `commons`) |
-| `blocks` | `{id, number?, title, title_de?, types, projections?, scope}` with `scope` ∈ `in` (captured), `out` (deliberately not), `planned` |
+| `blocks` | `{id, number?, title, types, projections?, scope}` with `scope` ∈ `in` (captured), `out` (deliberately not), `planned` |
 
 Every wiki folder belongs to exactly one block across all frameworks.
 

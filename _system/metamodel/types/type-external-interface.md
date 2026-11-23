@@ -7,7 +7,6 @@ prefix: EIF
 folder: wiki/external-interfaces
 template: _templates/external-interface.md
 label: External interface
-label_de: Externe Schnittstelle
 block: C3
 lifecycle: content
 stereotypes: []

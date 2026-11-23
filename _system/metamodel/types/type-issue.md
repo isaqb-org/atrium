@@ -7,7 +7,6 @@ prefix: ISS
 folder: wiki/issues
 template: _templates/issue.md
 label: Issue
-label_de: Offener Punkt
 block: C6
 lifecycle: issue
 stereotypes: []

@@ -1,3 +1,9 @@
+<p align="center">
+  <img alt="iSAQB atrium" src="docs/atrium-brand/svg/atrium-isaqb-lockup-grey.svg" width="420">
+</p>
+
+<p align="center"><em>One courtyard, many doors.</em></p>
+
 # Requirements Wiki — Starter
 
 You bring the raw material; the AI agent files it.

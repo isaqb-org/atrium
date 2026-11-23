@@ -7,7 +7,6 @@ prefix: RS
 folder: wiki/runtime-scenarios
 template: _templates/runtime-scenario.md
 label: Runtime scenario
-label_de: Laufzeitszenario
 block: A4
 lifecycle: content
 stereotypes: []

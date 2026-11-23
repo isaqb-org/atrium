@@ -7,7 +7,6 @@ prefix: CTX
 folder: wiki/context
 template: _templates/context.md
 label: Context
-label_de: Kontext
 block: C3
 lifecycle: content
 stereotypes: []

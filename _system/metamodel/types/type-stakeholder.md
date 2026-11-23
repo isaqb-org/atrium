@@ -7,7 +7,6 @@ prefix: STK
 folder: wiki/stakeholders
 template: _templates/stakeholder.md
 label: Stakeholder
-label_de: Stakeholder
 block: C4
 lifecycle: content
 stereotypes: []

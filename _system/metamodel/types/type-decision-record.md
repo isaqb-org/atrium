@@ -7,7 +7,6 @@ prefix: DR
 folder: wiki/decisions
 template: _templates/decision-record.md
 label: Decision record
-label_de: Entscheidung
 block: C7
 lifecycle: content
 stereotypes: []

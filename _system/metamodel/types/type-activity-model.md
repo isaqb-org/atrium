@@ -7,7 +7,6 @@ prefix: ACT
 folder: wiki/activity-models
 template: _templates/activity-model.md
 label: Activity model
-label_de: Aktivitätsmodell
 block: R4
 lifecycle: content
 stereotypes: []

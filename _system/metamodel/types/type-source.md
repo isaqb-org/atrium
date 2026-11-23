@@ -7,7 +7,6 @@ prefix: SRC
 folder: raw/sources
 template: _templates/source.md
 label: Source
-label_de: Quelle
 block: null
 lifecycle: source
 stereotypes: []

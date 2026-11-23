@@ -7,7 +7,6 @@ prefix: SOL
 folder: wiki/solution-strategy
 template: _templates/solution-strategy.md
 label: Solution strategy
-label_de: Lösungsstrategie
 block: A1
 lifecycle: content
 stereotypes: []

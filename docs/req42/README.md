@@ -50,30 +50,30 @@ Each section answers a question; you fill the ones your product needs, when it n
    requirements within their period.
 2. **Stakeholder** — *Who is interested in or affected by the product?* The people and
    roles whose goals, concerns and influence shape it.
-3. **Scope & Abgrenzung** (Scope) — *What is in vs. out, and what are the neighbours?*
+3. **Scope** — *What is in vs. out, and what are the neighbours?*
    System boundary, external interfaces, and the context around the system.
-4. **Funktionale Anforderungen** (Functional Requirements; "Product Backlog" until the
-   2026 edition; see `CHANGELOG.md`) — *What shall the product do?* The functional requirements,
+4. **Functional Requirements** ("Product Backlog" until the
+   2026 edition) — *What shall the product do?* The functional requirements,
    organised as **Epics → Features → User Stories**, written
    user-centred (*"As [role] I want [function] so that [benefit]"*) and prioritised
    value-first.
-5. **Modelle zur Unterstützung** (Supporting Models) — *How do we clarify complex
+5. **Supporting Models** — *How do we clarify complex
    items?* Graphical models that aid communication: flowcharts/activity diagrams, BPMN,
    state models, data/domain models, UI prototypes & wireframes. Used when they help
    (e.g. loops/conditional logic), linked bidirectionally to functional requirements — not for
    their own sake.
-6. **Qualitätsanforderungen** (Quality Requirements) — *How well?* Quality goals and
+6. **Quality Requirements** — *How well?* Quality goals and
    measurable scenarios (the *-ilities*): performance, usability, security, etc.
-7. **Randbedingungen** (Constraints) — *What limits the solution space?* Technical,
+7. **Constraints** — *What limits the solution space?* Technical,
    organisational and legal constraints imposed from outside.
-8. **Domänenbegriffe** (Domain Terminology) — *Do we share one language?* The glossary /
+8. **Domain Terminology** — *Do we share one language?* The glossary /
    ubiquitous language: one canonical meaning per term.
-9. **Betriebsmittel & Personal** (Assets) — *What resources and people are required?*
+9. **Assets** — *What resources and people are required?*
    Operating resources and staffing.
-10. **Teamstruktur** (Teams) — *Who builds it, how organised?* Team structure and
+10. **Teams** — *Who builds it, how organised?* Team structure and
     responsibilities.
 11. **Roadmaps** — *In what order, by when?* Release and roadmap planning over time.
-12. **Risiken & Annahmen** (Risks & Assumptions) — *What might go wrong, what are we
+12. **Risks & Assumptions** — *What might go wrong, what are we
     assuming?* Risks and the assumptions the requirements rest on.
 
 ## How this vault maps to req42
@@ -84,22 +84,22 @@ content units, and uses req42's recommended standards as semantic anchors. It do
 
 | req42 section | This vault |
 |----------------------|------------|
-| 01 Business Goals (Visionen & Ziele) | `wiki/goals/`, framed via `[[PAM]]` / `[[SMART]]` |
+| 01 Business Goals | `wiki/goals/`, framed via `[[PAM]]` / `[[SMART]]` |
 | 02 Stakeholder | `wiki/stakeholders/` |
-| 03 Scope (Scope & Abgrenzung) | `wiki/context/` + `wiki/external-interfaces/` |
-| 04 Functional Requirements (Funktionale Anforderungen) | `wiki/functional-requirements/` — one type, `notation:` plus notation-specific `level:`; Agile defaults to Epic → Feature → Story, Cockburn use cases are FRs too; hierarchy via `parent:` |
-| 05 Supporting Models (Modelle zur Unterstützung) | `wiki/activity-models/` and the entity diagram |
-| 06 Quality Requirements (Qualitätsanforderungen) | `wiki/quality-requirements/` (ISO 25010 + ATAM) |
-| 07 Constraints (Randbedingungen) | `wiki/constraints/` (arc42 categories) |
-| 08 Domain Terminology (Domänenbegriffe) | `wiki/domain-terms/` |
-| 09 Assets (Betriebsmittel & Personal) | *out of scope* |
-| 10 Teams (Teamstruktur) | *out of scope* |
+| 03 Scope | `wiki/context/` + `wiki/external-interfaces/` |
+| 04 Functional Requirements | `wiki/functional-requirements/` — one type, `notation:` plus notation-specific `level:`; Agile defaults to Epic → Feature → Story, Cockburn use cases are FRs too; hierarchy via `parent:` |
+| 05 Supporting Models | `wiki/activity-models/` and the entity diagram |
+| 06 Quality Requirements | `wiki/quality-requirements/` (ISO 25010 + ATAM) |
+| 07 Constraints | `wiki/constraints/` (arc42 categories) |
+| 08 Domain Terminology | `wiki/domain-terms/` |
+| 09 Assets | *out of scope* |
+| 10 Teams | *out of scope* |
 | 11 Roadmaps | *out of scope* |
-| 12 Risks & Assumptions (Risiken & Annahmen) | `wiki/issues/` (`kind: risk`) + `[!assumption]` flags |
+| 12 Risks & Assumptions | `wiki/issues/` (`kind: risk`) + `[!assumption]` flags |
 
 ## Sources
 
-- The 2026 req42 chapter (Hruschka/Starke, *arc42 in Aktion*, Hanser 2026, section IX) renames block 04 to **Funktionale Anforderungen**; `req42-framework-DE.md` beside this file mirrors the older **2.0 DE template (March 2023)** and still says "Product Backlog".
+- The 2026 req42 chapter (Hruschka/Starke, *arc42 in Aktion*, Hanser 2026, section IX) renames block 04 from "Product Backlog" to **Functional Requirements**.
 ## Sources
 
 - req42 framework repository — <https://github.com/Hruschka/req42-framework> (CC BY-SA 4.0)

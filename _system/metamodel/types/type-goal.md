@@ -7,7 +7,6 @@ prefix: GOAL
 folder: wiki/goals
 template: _templates/goal.md
 label: Goal
-label_de: Ziel
 block: R1
 lifecycle: content
 stereotypes: [vision, objective]

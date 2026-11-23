@@ -7,7 +7,6 @@ prefix: DT
 folder: wiki/domain-terms
 template: _templates/domain-term.md
 label: Domain term
-label_de: Domänenbegriff
 block: C5
 lifecycle: content
 stereotypes: [entity, value-object, sum-type]

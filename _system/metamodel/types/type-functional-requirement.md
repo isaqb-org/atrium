@@ -7,7 +7,6 @@ prefix: FR
 folder: wiki/functional-requirements
 template: _templates/functional-requirement.md
 label: Functional requirement
-label_de: Funktionale Anforderung
 block: R3
 lifecycle: content
 stereotypes: []
