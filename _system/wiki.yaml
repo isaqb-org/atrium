@@ -1,10 +1,10 @@
 # Project identity for this requirements wiki.
 #
 # The dashboard reads this file live; edit it and refresh the browser.
-system_name: "iSAQB atrium"  # the system whose requirements this vault holds
-tagline: "One courtyard, many doors."  # one line, shown under the name in the dashboard hero
+system_name: "atrium"  # the system whose requirements this vault holds
+tagline: "The iSAQB online platform"  # one line, shown under the name in the dashboard hero
 about: docs/atrium-brand/README.md  # optional: a page under docs/ shown at /about (hero mark + link)
 about_label: "About atrium"  # optional: link text and page title; empty → "About <system_name>"
 # default_notation: agile          # optional: notation for new functional requirements (FR-004); empty → agile
 brand: brand/  # optional: a folder with this wiki's marks, favicon and intro; empty → systems42
-dashboard_version: "0.13.0"  # the dashboard release this wiki runs; `./dashboard.sh update` names the newest
+dashboard_version: "0.14.3"  # the dashboard release this wiki uses, quoted
