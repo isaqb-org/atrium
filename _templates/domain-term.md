@@ -9,6 +9,7 @@ sources: []
 related: []
 tags: [domain-term]
 aliases: []
+german:                # optional: German translation of the term, kept apart from the aliases
 bounded-context: <context name>
 agreed: false
 stereotype:            # optional: entity | value-object | sum-type

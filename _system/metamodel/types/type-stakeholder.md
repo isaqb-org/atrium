@@ -13,6 +13,7 @@ stereotypes: []
 naming: "role or persona name"
 fields:
   - {name: aliases, kind: list, doc: "other names, incl. former titles"}
+  - {name: german, kind: scalar, required: false, doc: "optional German translation, kept apart from the aliases"}
   - {name: role, kind: scalar}
   - {name: influence, kind: enum, values: [high, medium, low]}
   - {name: interest, kind: enum, values: [high, medium, low]}
