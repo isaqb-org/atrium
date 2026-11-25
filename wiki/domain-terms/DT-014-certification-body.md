@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-016-training-provider]]", "[[DT-007-cpsa]]", "[[DT-013-accreditation]]", "[[DT-015-certificate-of-attendance]]", "[[DT-008-foundation-level]]", "[[ISS-005-licensed-or-accredited-certification-bodies]]"]
+related: ["[[DT-016-training-provider]]", "[[DT-007-cpsa]]", "[[DT-013-accreditation]]", "[[DT-015-certificate-of-attendance]]", "[[DT-008-foundation-level]]", "[[ISS-005-licensed-or-accredited-certification-bodies]]", "[[GOAL-004-clear-path-to-certification]]"]
 tags: ["domain-term", "certification"]
 aliases: ["licensed certification body", "exam provider"]
 german: "Zertifizierungsstelle"

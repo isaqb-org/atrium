@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-008-foundation-level]]", "[[DT-011-advanced-level-module]]", "[[DT-010-expert-level]]", "[[DT-019-training]]", "[[DT-016-training-provider]]", "[[DT-032-module-page]]"]
+related: ["[[DT-008-foundation-level]]", "[[DT-011-advanced-level-module]]", "[[DT-010-expert-level]]", "[[DT-019-training]]", "[[DT-016-training-provider]]", "[[DT-032-module-page]]", "[[GOAL-004-clear-path-to-certification]]", "[[GOAL-005-multilingual-platform]]"]
 tags: ["domain-term", "certification"]
 aliases: ["curricula", "syllabus"]
 german: "Lehrplan"

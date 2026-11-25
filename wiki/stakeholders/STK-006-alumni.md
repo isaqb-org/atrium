@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[DT-018-alumni]]", "[[DT-015-certificate-of-attendance]]", "[[STK-004-certification-prospect]]"]
+related: ["[[DT-018-alumni]]", "[[DT-015-certificate-of-attendance]]", "[[STK-004-certification-prospect]]", "[[ISS-008-core-tasks-for-alumni-members-and-employers]]"]
 tags: [stakeholder]
 aliases: ["alumnus", "alumna", "alum", "former participant"]
 german: "Alumni"

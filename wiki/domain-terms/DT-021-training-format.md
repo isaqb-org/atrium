@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-020-training-date]]", "[[DT-022-classroom-training]]", "[[DT-023-online-training]]", "[[DT-024-elearning]]", "[[DT-025-hybrid-training]]", "[[DT-026-diwan]]", "[[ISS-002-training-format-and-diwan]]"]
+related: ["[[DT-020-training-date]]", "[[DT-022-classroom-training]]", "[[DT-023-online-training]]", "[[DT-024-elearning]]", "[[DT-025-hybrid-training]]", "[[DT-026-diwan]]", "[[ISS-002-training-format-and-diwan]]", "[[GOAL-003-fast-training-date-search]]"]
 tags: ["domain-term", "training-market"]
 aliases: ["delivery format", "delivery mode"]
 german: "Durchführungsart"

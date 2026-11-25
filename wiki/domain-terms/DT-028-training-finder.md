@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-027-atrium]]", "[[DT-020-training-date]]", "[[DT-026-diwan]]", "[[DT-030-provider-page]]", "[[DT-032-module-page]]"]
+related: ["[[DT-027-atrium]]", "[[DT-020-training-date]]", "[[DT-026-diwan]]", "[[DT-030-provider-page]]", "[[DT-032-module-page]]", "[[GOAL-003-fast-training-date-search]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]"]
 tags: ["domain-term", "atrium"]
 aliases: ["date search", "training search"]
 german: 

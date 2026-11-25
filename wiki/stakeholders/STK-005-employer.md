@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[STK-001-training-provider]]", "[[DT-004-member]]"]
+related: ["[[STK-001-training-provider]]", "[[DT-004-member]]", "[[ISS-008-core-tasks-for-alumni-members-and-employers]]"]
 tags: [stakeholder]
 aliases: ["company", "HR department"]
 german: "Arbeitgeber"

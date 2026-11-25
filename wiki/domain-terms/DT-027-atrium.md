@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-026-diwan]]", "[[DT-028-training-finder]]", "[[DT-029-admin-app]]", "[[DT-031-public-glossary]]", "[[DT-030-provider-page]]", "[[DT-032-module-page]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]"]
+related: ["[[DT-026-diwan]]", "[[DT-028-training-finder]]", "[[DT-029-admin-app]]", "[[DT-031-public-glossary]]", "[[DT-030-provider-page]]", "[[DT-032-module-page]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[GOAL-001-atrium-vision]]"]
 tags: ["domain-term", "atrium"]
 aliases: ["iSAQB atrium"]
 german: 

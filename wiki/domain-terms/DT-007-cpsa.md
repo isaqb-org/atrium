@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-002-isaqb-association]]", "[[DT-008-foundation-level]]", "[[DT-009-advanced-level]]", "[[DT-010-expert-level]]", "[[DT-001-isaqb]]", "[[DT-014-certification-body]]", "[[STK-004-certification-prospect]]"]
+related: ["[[DT-002-isaqb-association]]", "[[DT-008-foundation-level]]", "[[DT-009-advanced-level]]", "[[DT-010-expert-level]]", "[[DT-001-isaqb]]", "[[DT-014-certification-body]]", "[[STK-004-certification-prospect]]", "[[GOAL-004-clear-path-to-certification]]"]
 tags: ["domain-term", "certification"]
 aliases: ["Certified Professional for Software Architecture", "CPSA programme"]
 german: 

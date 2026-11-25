@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-015-certificate-of-attendance]]", "[[DT-016-training-provider]]", "[[DT-020-training-date]]", "[[DT-018-alumni]]", "[[DT-027-atrium]]", "[[DT-021-training-format]]", "[[DT-028-training-finder]]", "[[DT-029-admin-app]]", "[[ISS-001-what-does-diwan-stand-for]]", "[[STK-001-training-provider]]", "[[STK-012-product-owner]]"]
+related: ["[[DT-015-certificate-of-attendance]]", "[[DT-016-training-provider]]", "[[DT-020-training-date]]", "[[DT-018-alumni]]", "[[DT-027-atrium]]", "[[DT-021-training-format]]", "[[DT-028-training-finder]]", "[[DT-029-admin-app]]", "[[ISS-001-what-does-diwan-stand-for]]", "[[STK-001-training-provider]]", "[[STK-012-product-owner]]", "[[GOAL-001-atrium-vision]]"]
 tags: ["domain-term", "training-market"]
 aliases: ["DIWAN register", "participant register"]
 german: 

@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-016-training-provider]]", "[[DT-019-training]]", "[[DT-020-training-date]]", "[[DT-013-accreditation]]", "[[STK-002-trainer]]"]
+related: ["[[DT-016-training-provider]]", "[[DT-019-training]]", "[[DT-020-training-date]]", "[[DT-013-accreditation]]", "[[STK-002-trainer]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]"]
 tags: ["domain-term", "training-market"]
 aliases: ["accredited trainer"]
 german: "Trainer:in"

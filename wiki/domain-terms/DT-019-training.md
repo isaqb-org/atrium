@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-016-training-provider]]", "[[DT-012-curriculum]]", "[[DT-017-trainer]]", "[[DT-020-training-date]]", "[[DT-013-accreditation]]", "[[DT-011-advanced-level-module]]", "[[DT-015-certificate-of-attendance]]", "[[DT-018-alumni]]"]
+related: ["[[DT-016-training-provider]]", "[[DT-012-curriculum]]", "[[DT-017-trainer]]", "[[DT-020-training-date]]", "[[DT-013-accreditation]]", "[[DT-011-advanced-level-module]]", "[[DT-015-certificate-of-attendance]]", "[[DT-018-alumni]]", "[[GOAL-003-fast-training-date-search]]"]
 tags: ["domain-term", "training-market"]
 aliases: ["training course", "course", "accredited training"]
 german: "Training"

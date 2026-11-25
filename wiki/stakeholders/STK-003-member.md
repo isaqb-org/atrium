@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[DT-004-member]]", "[[DT-005-general-meeting]]", "[[ISS-007-english-labels-of-member-types]]"]
+related: ["[[DT-004-member]]", "[[DT-005-general-meeting]]", "[[ISS-007-english-labels-of-member-types]]", "[[ISS-008-core-tasks-for-alumni-members-and-employers]]"]
 tags: [stakeholder]
 aliases: ["iSAQB member", "association member"]
 german: "Mitglied"

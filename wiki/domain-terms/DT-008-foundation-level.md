@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-007-cpsa]]", "[[DT-009-advanced-level]]", "[[DT-014-certification-body]]", "[[DT-012-curriculum]]", "[[DT-032-module-page]]"]
+related: ["[[DT-007-cpsa]]", "[[DT-009-advanced-level]]", "[[DT-014-certification-body]]", "[[DT-012-curriculum]]", "[[DT-032-module-page]]", "[[GOAL-004-clear-path-to-certification]]"]
 tags: ["domain-term", "certification"]
 aliases: ["CPSA-F", "Foundation"]
 german: 

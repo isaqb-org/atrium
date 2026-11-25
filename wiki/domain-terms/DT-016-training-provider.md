@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-017-trainer]]", "[[DT-019-training]]", "[[DT-013-accreditation]]", "[[DT-014-certification-body]]", "[[DT-030-provider-page]]", "[[DT-012-curriculum]]", "[[DT-015-certificate-of-attendance]]", "[[DT-026-diwan]]", "[[DT-029-admin-app]]", "[[DT-033-content-contributor]]", "[[STK-001-training-provider]]"]
+related: ["[[DT-017-trainer]]", "[[DT-019-training]]", "[[DT-013-accreditation]]", "[[DT-014-certification-body]]", "[[DT-030-provider-page]]", "[[DT-012-curriculum]]", "[[DT-015-certificate-of-attendance]]", "[[DT-026-diwan]]", "[[DT-029-admin-app]]", "[[DT-033-content-contributor]]", "[[STK-001-training-provider]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]"]
 tags: ["domain-term", "training-market"]
 aliases: ["provider", "accredited training provider"]
 german: "Trainingsanbieter"

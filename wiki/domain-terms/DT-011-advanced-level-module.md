@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-009-advanced-level]]", "[[DT-012-curriculum]]", "[[DT-019-training]]", "[[DT-032-module-page]]", "[[ISS-006-credit-point-has-no-domain-term]]"]
+related: ["[[DT-009-advanced-level]]", "[[DT-012-curriculum]]", "[[DT-019-training]]", "[[DT-032-module-page]]", "[[ISS-006-credit-point-has-no-domain-term]]", "[[GOAL-004-clear-path-to-certification]]"]
 tags: ["domain-term", "certification"]
 aliases: ["Advanced module", "CPSA-A module", "module"]
 german: "Advanced-Level-Modul"

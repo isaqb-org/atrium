@@ -41,6 +41,16 @@ every capture (`_system/workflows/capture.md`, step 7).
 
 ## Goals
 
+- [[GOAL-001-atrium-vision]]: atrium vision
+- [[GOAL-002-excellent-usability]]: Excellent usability for every audience
+- [[GOAL-003-fast-training-date-search]]: Find a fitting training date fast
+- [[GOAL-004-clear-path-to-certification]]: Clear path to certification
+- [[GOAL-005-multilingual-platform]]: Multilingual platform
+- [[GOAL-006-technical-excellence-of-the-running-site]]: Technical excellence of the running site
+- [[GOAL-007-openness-of-code-and-architecture]]: Openness of code and architecture
+- [[GOAL-008-low-cost-of-ownership]]: Low cost of ownership
+- [[GOAL-009-fairness-towards-providers-and-trainers]]: Fairness towards providers and trainers
+
 ## Stakeholders
 
 - [[STK-001-training-provider]]: training provider
@@ -77,14 +87,26 @@ every capture (`_system/workflows/capture.md`, step 7).
 ## Issues
 
 - [[ISS-001-what-does-diwan-stand-for]]: What does the name DIWAN stand for?
-- [[ISS-002-training-format-and-diwan]]: Does DIWAN use the concept \"training format\", and under which name?
+- [[ISS-002-training-format-and-diwan]]: Does DIWAN use the concept "training format", and under which name?
 - [[ISS-003-german-names-of-training-formats]]: Do iSAQB's training format names get German translations?
 - [[ISS-004-provider-profiles-in-atrium-or-diwan]]: Do provider profiles stay in atrium or move to DIWAN?
-- [[ISS-005-licensed-or-accredited-certification-bodies]]: Are certification bodies \"licensed\" or \"accredited\"?
+- [[ISS-005-licensed-or-accredited-certification-bodies]]: Are certification bodies "licensed" or "accredited"?
 - [[ISS-006-credit-point-has-no-domain-term]]: Credit point needs a domain term
 - [[ISS-007-english-labels-of-member-types]]: Which English labels of the member types are authoritative?
+- [[ISS-008-core-tasks-for-alumni-members-and-employers]]: Which core tasks do alumni, members and employers have?
+- [[ISS-009-keep-clear-path-to-certification-as-objective]]: Does the clear path to certification stay an objective, and who defines the correct next step?
+- [[ISS-010-quality-requirements-missing-for-five-qualities]]: Quality requirements missing for security, modularity, extensibility, flexibility and maintainability by volunteers
+- [[ISS-011-how-providers-with-several-companies-count]]: Does a provider with several companies count once or once per company?
 
 ## Sources
 
 - [[SRC-001-domain-terms]]: Domain terms
 - [[SRC-002-stakeholder-names]]: Stakeholder names
+- [[SRC-003-vision]]: Vision
+- [[SRC-004-excellent-usability]]: Objective: excellent usability
+- [[SRC-005-fast-training-date-search]]: Objective: find a fitting training date fast
+- [[SRC-006-clear-path-to-certification]]: Objective: clear path to certification
+- [[SRC-007-multilingual-platform]]: Objective: multilingual platform
+- [[SRC-008-technical-excellence]]: Objective: technical excellence as a role model
+- [[SRC-009-low-cost-of-ownership]]: Objective: low cost of ownership
+- [[SRC-010-fairness-towards-providers-and-trainers]]: Objective: fairness towards providers and trainers
