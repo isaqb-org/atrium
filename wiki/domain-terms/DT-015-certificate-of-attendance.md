@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-016-training-provider]]", "[[DT-019-training]]", "[[DT-026-diwan]]", "[[DT-009-advanced-level]]", "[[DT-018-alumni]]", "[[DT-014-certification-body]]", "[[ISS-006-credit-point-has-no-domain-term]]"]
+related: ["[[DT-016-training-provider]]", "[[DT-019-training]]", "[[DT-026-diwan]]", "[[DT-009-advanced-level]]", "[[DT-018-alumni]]", "[[DT-014-certification-body]]", "[[ISS-006-credit-point-has-no-domain-term]]", "[[STK-006-alumni]]"]
 tags: ["domain-term", "certification"]
 aliases: ["attendance certificate"]
 german: "Teilnahmebestätigung"

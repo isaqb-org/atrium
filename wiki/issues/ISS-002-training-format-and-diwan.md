@@ -12,7 +12,7 @@ severity: major
 kind: question
 category: requirements
 raised-by: agent
-owner:
+owner: "[[STK-012-product-owner]]"
 resolved: null
 ---
 

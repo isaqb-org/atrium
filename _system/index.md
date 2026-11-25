@@ -43,6 +43,21 @@ every capture (`_system/workflows/capture.md`, step 7).
 
 ## Stakeholders
 
+- [[STK-001-training-provider]]: training provider
+- [[STK-002-trainer]]: trainer
+- [[STK-003-member]]: member
+- [[STK-004-certification-prospect]]: certification prospect
+- [[STK-005-employer]]: employer
+- [[STK-006-alumni]]: alumni
+- [[STK-007-editorial-team]]: editorial team
+- [[STK-008-operator]]: operator
+- [[STK-009-is-wg]]: iSAQB Infrastructure Working Group
+- [[STK-010-external-it-support]]: external IT support
+- [[STK-011-executive-board]]: executive board
+- [[STK-012-product-owner]]: product owner
+- [[STK-013-technical-owner]]: technical owner
+- [[STK-014-academic-partner]]: academic partner
+
 ## Context
 
 ## External interfaces
@@ -67,7 +82,9 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[ISS-004-provider-profiles-in-atrium-or-diwan]]: Do provider profiles stay in atrium or move to DIWAN?
 - [[ISS-005-licensed-or-accredited-certification-bodies]]: Are certification bodies \"licensed\" or \"accredited\"?
 - [[ISS-006-credit-point-has-no-domain-term]]: Credit point needs a domain term
+- [[ISS-007-english-labels-of-member-types]]: Which English labels of the member types are authoritative?
 
 ## Sources
 
 - [[SRC-001-domain-terms]]: Domain terms
+- [[SRC-002-stakeholder-names]]: Stakeholder names

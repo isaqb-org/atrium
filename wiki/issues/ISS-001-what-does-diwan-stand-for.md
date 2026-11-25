@@ -12,7 +12,7 @@ severity: minor
 kind: question
 category: content
 raised-by: agent
-owner:
+owner: "[[STK-012-product-owner]]"
 resolved: null
 ---
 

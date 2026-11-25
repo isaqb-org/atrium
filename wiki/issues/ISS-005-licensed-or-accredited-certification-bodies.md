@@ -12,7 +12,7 @@ severity: minor
 kind: ambiguity
 category: content
 raised-by: agent
-owner:
+owner: "[[STK-007-editorial-team]]"
 resolved: null
 ---
 

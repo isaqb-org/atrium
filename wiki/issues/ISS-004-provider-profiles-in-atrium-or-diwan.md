@@ -6,13 +6,13 @@ status: open
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-029-admin-app]]", "[[DT-030-provider-page]]", "[[DT-006-reviewer]]", "[[DT-027-atrium]]"]
+related: ["[[DT-029-admin-app]]", "[[DT-030-provider-page]]", "[[DT-006-reviewer]]", "[[DT-027-atrium]]", "[[STK-001-training-provider]]", "[[STK-007-editorial-team]]", "[[STK-014-academic-partner]]"]
 tags: [issue]
 severity: major
 kind: question
 category: requirements
 raised-by: agent
-owner:
+owner: "[[STK-012-product-owner]]"
 resolved: null
 ---
 

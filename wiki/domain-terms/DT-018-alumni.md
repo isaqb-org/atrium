@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-015-certificate-of-attendance]]", "[[DT-004-member]]", "[[DT-026-diwan]]", "[[DT-019-training]]"]
+related: ["[[DT-015-certificate-of-attendance]]", "[[DT-004-member]]", "[[DT-026-diwan]]", "[[DT-019-training]]", "[[STK-006-alumni]]"]
 tags: ["domain-term", "training-market"]
 aliases: ["alumnus", "alumna", "alum", "former participant"]
 german: "Alumni"

@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-001-isaqb]]", "[[DT-003-isaqb-gmbh]]", "[[DT-004-member]]", "[[DT-005-general-meeting]]", "[[DT-007-cpsa]]"]
+related: ["[[DT-001-isaqb]]", "[[DT-003-isaqb-gmbh]]", "[[DT-004-member]]", "[[DT-005-general-meeting]]", "[[DT-007-cpsa]]", "[[STK-011-executive-board]]", "[[STK-014-academic-partner]]"]
 tags: ["domain-term", "organisation"]
 aliases: ["iSAQB e. V.", "association"]
 german: "iSAQB e. V."

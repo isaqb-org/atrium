@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-027-atrium]]", "[[DT-033-content-contributor]]"]
+related: ["[[DT-027-atrium]]", "[[DT-033-content-contributor]]", "[[STK-007-editorial-team]]"]
 tags: ["domain-term", "atrium"]
 aliases: ["glossary page"]
 german: 
@@ -23,6 +23,6 @@ relationships: []
 
 **Definition.** The [[DT-027-atrium|atrium]] page where visitors look up iSAQB terms in a table.
 
-**In context.** Maintained by the editorial team. Meant for words prospects need explained, such as [[DT-016-training-provider|training provider]], certification or [[DT-013-accreditation|accreditation]]. Its synonyms feed the search.
+**In context.** Maintained by the [[STK-007-editorial-team|editorial team]]. Meant for words prospects need explained, such as [[DT-016-training-provider|training provider]], certification or [[DT-013-accreditation|accreditation]]. Its synonyms feed the search.
 
 **Distinguish from.** The domain terms of this wiki: the project's internal shared language, including internal terms such as reviewer or admin app. They are a reference for the public glossary, not its source.
