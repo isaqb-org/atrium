@@ -12,6 +12,7 @@ lifecycle: content
 stereotypes: [entity, value-object, sum-type]
 naming: One canonical term per meaning and bounded context.
 fields:
+  - {name: german, kind: scalar, required: false, doc: "optional German translation, kept apart from the aliases"}
   - {name: bounded-context, kind: scalar}
   - {name: agreed, kind: bool}
   - {name: stereotype, kind: enum, values: [entity, value-object, sum-type], required: false}

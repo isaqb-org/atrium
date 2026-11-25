@@ -9,6 +9,7 @@ sources: []
 related: []
 tags: [stakeholder]
 aliases: []          # alternative names / user-category labels, e.g. "Backoffice"
+german:              # optional: German translation of the name, kept apart from the aliases
 role: <job title or system role>
 influence: medium    # high | medium | low  (power to shape the system)
 interest: medium     # high | medium | low  (stake in the outcome)
