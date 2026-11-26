@@ -1,0 +1,78 @@
+# Builds the whole wiki as a static site (DR-001) and publishes it as a demo
+# on https://atrium-dashboard.netlify.app.
+#
+# Pull requests only build. Pushes to main build and deploy.
+# Needs two repository secrets: NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID.
+name: Publish demo site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publish-demo-site-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out atrium
+        uses: actions/checkout@v4
+        with:
+          path: atrium
+
+      # The static exporter is not in a dashboard release yet, so it comes
+      # from the dashboard's main branch. Replace with the pinned release
+      # once it ships the export (DR-001, follow-up PR).
+      - name: Check out the dashboard's static exporter
+        uses: actions/checkout@v4
+        with:
+          repository: systems42-org/systems42-dashboard
+          ref: main
+          path: dashboard
+
+      - name: Build static site
+        env:
+          DEMO_WIKI: ${{ github.workspace }}/atrium
+          SITE_OUT: ${{ runner.temp }}/build
+        run: dashboard/site/build.sh
+
+      - name: Assemble site folder
+        run: atrium/.github/scripts/assemble-demo-site.sh "$RUNNER_TEMP/build" "$RUNNER_TEMP/site"
+
+      - name: Deploy to Netlify
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        run: |
+          if [ -z "$NETLIFY_AUTH_TOKEN" ] || [ -z "$NETLIFY_SITE_ID" ]; then
+            echo "::error::Secrets NETLIFY_AUTH_TOKEN and NETLIFY_SITE_ID are not set."
+            exit 1
+          fi
+          cd "$RUNNER_TEMP/site" && zip -qr "$RUNNER_TEMP/site.zip" .
+          deploy=$(curl -sSf -X POST \
+            -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+            -H "Content-Type: application/zip" \
+            --data-binary "@$RUNNER_TEMP/site.zip" \
+            "https://api.netlify.com/api/v1/sites/$NETLIFY_SITE_ID/deploys?title=atrium%20${GITHUB_SHA::7}")
+          id=$(echo "$deploy" | jq -r .id)
+          echo "Deploy $id started"
+          for _ in $(seq 1 60); do
+            state=$(curl -sSf -H "Authorization: Bearer $NETLIFY_AUTH_TOKEN" \
+              "https://api.netlify.com/api/v1/deploys/$id" | jq -r .state)
+            case "$state" in
+              ready) echo "Published: https://atrium-dashboard.netlify.app/"; exit 0 ;;
+              error) echo "::error::Netlify deploy $id failed"; exit 1 ;;
+            esac
+            sleep 5
+          done
+          echo "::error::Netlify deploy $id did not finish in 5 minutes (last state: $state)"
+          exit 1

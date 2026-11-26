@@ -164,6 +164,8 @@ capture or inspect run, with a message naming it, so `git revert` stays clean; t
 
 Review of `draft` content happens in the grilling passes and by status promotion,
 not in a PR. Anything that reads `main` (reports, exports) must filter on `status`.
+One exception: the public static site publishes every page with its status visible
+([DR-001](wiki/decisions/DR-001-publish-the-whole-wiki-as-a-public-static-site.md)).
 
 ## Harnesses and skills
 
