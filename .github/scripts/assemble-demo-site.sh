@@ -8,6 +8,9 @@
 # With <wiki dir>, the footer of every page names the content version: the
 # wiki's commit (short id and date). CONTENT_REPO_URL, if set, links the id
 # to that commit, e.g. https://github.com/isaqb-org/atrium.
+#
+# SITE_TITLE, if set, names the project in the footer ("Read-only dashboard
+# for <SITE_TITLE> LLM wiki") instead of the product name.
 set -euo pipefail
 
 BUILD="$1"; OUT="$2"; WIKI="${3:-}"
@@ -15,6 +18,12 @@ BUILD="$1"; OUT="$2"; WIKI="${3:-}"
 
 rm -rf "$OUT"; mkdir -p "$OUT"
 cp -R "$BUILD/demo" "$OUT/demo"
+
+# Footer: the project's name, and "read-only" only once.
+export SITE_TITLE="${SITE_TITLE:-}"
+find "$OUT/demo" -name '*.html' -print0 | xargs -0 perl -pi -e '
+  s{(<span class="foot-title">Read-only dashboard for )Systems42( <a )}{$1$ENV{SITE_TITLE}$2}g if $ENV{SITE_TITLE};
+  s{(<span class="presence-unit">Static demo) · read-only(</span>)}{$1$2}g;'
 
 # Content version in the footer, next to the dashboard version.
 if [ -n "$WIKI" ]; then
