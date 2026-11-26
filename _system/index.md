@@ -38,6 +38,9 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[DT-031-public-glossary]]: public glossary
 - [[DT-032-module-page]]: module page
 - [[DT-033-content-contributor]]: content contributor
+- [[DT-034-content-tag]]: content tag
+- [[DT-035-curriculum-page]]: curriculum page
+- [[DT-036-site-search]]: site search
 
 ## Goals
 
@@ -76,7 +79,19 @@ every capture (`_system/workflows/capture.md`, step 7).
 
 ## Functional requirements
 
+- [[FR-001-site-search]]: Site search
+- [[FR-002-show-results-while-typing]]: Show results while typing
+- [[FR-003-show-all-results-on-a-results-page]]: Show all results on a results page
+- [[FR-004-rank-and-group-results]]: Rank and group results
+- [[FR-005-tolerate-typos-and-spellings]]: Tolerate typos and spellings
+- [[FR-006-find-a-term-by-synonym]]: Find a term by synonym
+- [[FR-007-search-all-public-content]]: Search all public content
+- [[FR-008-operate-the-search-by-keyboard]]: Operate the search by keyboard
+- [[FR-009-offer-a-page-per-curriculum-version]]: Offer a page per curriculum version
+
 ## Quality requirements
+
+- [[QR-001-search-popup-keeps-up-with-typing]]: Search popup keeps up with typing
 
 ## Constraints
 
@@ -110,3 +125,12 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[SRC-008-technical-excellence]]: Objective: technical excellence as a role model
 - [[SRC-009-low-cost-of-ownership]]: Objective: low cost of ownership
 - [[SRC-010-fairness-towards-providers-and-trainers]]: Objective: fairness towards providers and trainers
+- [[SRC-011-site-search]]: Epic: site search
+- [[SRC-012-results-while-typing]]: Story: results while typing, in a popup
+- [[SRC-013-complete-results-page]]: Story: complete results on a results page of its own
+- [[SRC-014-categorised-results]]: Story: ranked and categorised results
+- [[SRC-015-tolerate-typos]]: Story: tolerate typos and spellings
+- [[SRC-016-find-by-synonym]]: Story: find by synonym
+- [[SRC-017-search-all-public-content]]: Story: search all public content
+- [[SRC-018-search-by-keyboard]]: Story: use the search by keyboard
+- [[SRC-019-curriculum-pages]]: Requirement: curriculum pages

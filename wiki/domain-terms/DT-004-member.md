@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-002-isaqb-association]]", "[[DT-005-general-meeting]]", "[[DT-018-alumni]]", "[[STK-003-member]]", "[[STK-005-employer]]", "[[STK-011-executive-board]]", "[[ISS-007-english-labels-of-member-types]]"]
+related: ["[[DT-002-isaqb-association]]", "[[DT-005-general-meeting]]", "[[DT-018-alumni]]", "[[STK-003-member]]", "[[STK-005-employer]]", "[[STK-011-executive-board]]", "[[ISS-007-english-labels-of-member-types]]", "[[DT-034-content-tag]]"]
 tags: ["domain-term", "organisation"]
 aliases: ["iSAQB member", "association member"]
 german: "Mitglied"

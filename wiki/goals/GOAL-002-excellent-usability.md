@@ -5,7 +5,7 @@ title: "Excellent usability for every audience"
 status: draft
 created: 2026-11-25
 updated: 2026-11-25
-sources: ["[[SRC-004-excellent-usability]]"]
+sources: ["[[SRC-004-excellent-usability]]", "[[SRC-011-site-search]]"]
 related: ["[[DT-031-public-glossary]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[ISS-008-core-tasks-for-alumni-members-and-employers]]", "[[ISS-009-keep-clear-path-to-certification-as-objective]]"]
 tags: [goal]
 stereotype: objective
@@ -35,6 +35,7 @@ tile_claim:
 | [[STK-004-certification-prospect\|Certification prospect]] | Choose a suitable module |
 | [[STK-004-certification-prospect\|Certification prospect]] | Find an accredited training |
 | Everyone | Look up a term in the [[DT-031-public-glossary\|public glossary]] |
+| Everyone | Find a given page via the [[DT-036-site-search\|site search]], e.g. the exam fee for CPSA-F or the latest Foundation curriculum |
 
 **Sub-goals.** [[GOAL-003-fast-training-date-search]], [[GOAL-004-clear-path-to-certification]].
 

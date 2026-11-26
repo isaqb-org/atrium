@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-007-multilingual-platform]]"]
-related: ["[[DT-031-public-glossary]]", "[[DT-012-curriculum]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]"]
+related: ["[[DT-031-public-glossary]]", "[[DT-012-curriculum]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]", "[[FR-001-site-search]]"]
 tags: [goal]
 stereotype: objective
 parent: ["[[GOAL-001-atrium-vision]]"]

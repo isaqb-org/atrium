@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: []
-related: ["[[STK-001-training-provider]]", "[[DT-002-isaqb-association]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]"]
+related: ["[[STK-001-training-provider]]", "[[DT-002-isaqb-association]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[DT-034-content-tag]]"]
 tags: [stakeholder]
 aliases: ["university", "university of applied sciences"]
 german: "Hochschule"

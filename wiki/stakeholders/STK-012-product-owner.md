@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[STK-013-technical-owner]]", "[[STK-011-executive-board]]", "[[DT-026-diwan]]"]
+related: ["[[STK-013-technical-owner]]", "[[STK-011-executive-board]]", "[[DT-026-diwan]]", "[[FR-001-site-search]]"]
 tags: [stakeholder]
 aliases: ["PO"]
 german: "Product Owner"

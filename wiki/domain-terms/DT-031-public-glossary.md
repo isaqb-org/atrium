@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-25
 updated: 2026-11-25
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-027-atrium]]", "[[DT-033-content-contributor]]", "[[STK-007-editorial-team]]", "[[GOAL-002-excellent-usability]]", "[[GOAL-005-multilingual-platform]]"]
+related: ["[[DT-027-atrium]]", "[[DT-033-content-contributor]]", "[[STK-007-editorial-team]]", "[[GOAL-002-excellent-usability]]", "[[GOAL-005-multilingual-platform]]", "[[FR-001-site-search]]", "[[FR-006-find-a-term-by-synonym]]", "[[DT-034-content-tag]]", "[[DT-036-site-search]]"]
 tags: ["domain-term", "atrium"]
 aliases: ["glossary page"]
 german: 
