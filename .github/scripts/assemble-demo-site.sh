@@ -3,14 +3,34 @@
 # from its root: the wiki under /demo/, the root redirecting there, and a
 # noindex header so search engines do not list the demo.
 #
-# Usage: assemble-demo-site.sh <dashboard build dir> <output dir>
+# Usage: assemble-demo-site.sh <dashboard build dir> <output dir> [<wiki dir>]
+#
+# With <wiki dir>, the footer of every page names the content version: the
+# wiki's commit (short id and date). CONTENT_REPO_URL, if set, links the id
+# to that commit, e.g. https://github.com/isaqb-org/atrium.
 set -euo pipefail
 
-BUILD="$1"; OUT="$2"
+BUILD="$1"; OUT="$2"; WIKI="${3:-}"
 [ -d "$BUILD/demo" ] || { echo "no demo/ in $BUILD" >&2; exit 1; }
 
 rm -rf "$OUT"; mkdir -p "$OUT"
 cp -R "$BUILD/demo" "$OUT/demo"
+
+# Content version in the footer, next to the dashboard version.
+if [ -n "$WIKI" ]; then
+  sha=$(git -C "$WIKI" rev-parse HEAD)
+  export CONTENT_SHORT="${sha:0:7}"
+  export CONTENT_DATE=$(git -C "$WIKI" log -1 --format=%cs)
+  export CONTENT_LINK=""
+  [ -n "${CONTENT_REPO_URL:-}" ] && CONTENT_LINK="${CONTENT_REPO_URL%/}/commit/$sha"
+  find "$OUT/demo" -name '*.html' -print0 | xargs -0 perl -pi -e '
+    BEGIN {
+      my $id = $ENV{CONTENT_LINK} ? qq{<a href="$ENV{CONTENT_LINK}">$ENV{CONTENT_SHORT}</a>} : $ENV{CONTENT_SHORT};
+      $c = qq{<span title="Wiki commit the content was built from">Content $id ($ENV{CONTENT_DATE})</span> ·};
+    }
+    s{(<a href="/demo/help/">Help</a> ·)}{$1\n      $c}g;'
+  echo "content version $CONTENT_SHORT ($CONTENT_DATE)"
+fi
 
 # The demo bar links to the product site's root; on this host they would be dead.
 find "$OUT/demo" -name '*.html' -print0 | xargs -0 perl -pi -e '

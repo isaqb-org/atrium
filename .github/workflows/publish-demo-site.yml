@@ -45,7 +45,9 @@ jobs:
         run: dashboard/site/build.sh
 
       - name: Assemble site folder
-        run: atrium/.github/scripts/assemble-demo-site.sh "$RUNNER_TEMP/build" "$RUNNER_TEMP/site"
+        env:
+          CONTENT_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+        run: atrium/.github/scripts/assemble-demo-site.sh "$RUNNER_TEMP/build" "$RUNNER_TEMP/site" atrium
 
       - name: Deploy to Netlify
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
