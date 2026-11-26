@@ -6,7 +6,7 @@ status: draft
 created: 2026-11-26
 updated: 2026-11-26
 sources: ["[[SRC-021-partner-logo-marquee]]"]
-related: ["[[FR-010-show-the-partner-logo-marquee]]", "[[DT-016-training-provider]]", "[[DT-030-provider-page]]", "[[DT-028-training-finder]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]"]
+related: ["[[FR-010-show-the-partner-logo-marquee]]", "[[DT-016-training-provider]]", "[[DT-030-provider-page]]", "[[DT-028-training-finder]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]", "[[FR-012-edit-the-own-provider-profile]]", "[[FR-014-manage-provider-accounts]]"]
 tags: ["domain-term", "atrium"]
 aliases: ["logo marquee"]
 german: "Partner-Logo-Laufband"

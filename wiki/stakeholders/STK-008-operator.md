@@ -4,9 +4,9 @@ type: stakeholder
 title: "operator"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[STK-013-technical-owner]]", "[[STK-009-is-wg]]", "[[STK-010-external-it-support]]"]
+related: ["[[STK-013-technical-owner]]", "[[STK-009-is-wg]]", "[[STK-010-external-it-support]]", "[[FR-014-manage-provider-accounts]]", "[[FR-011-provider-profile-maintenance]]"]
 tags: [stakeholder]
 aliases: ["operations", "ops"]
 german: "Betreiber"

@@ -7,8 +7,11 @@ and got its login from the infrastructure or support role.
 
 **Profile content.**
 - Name, website link, contact email, address.
-- Description: 1 to 2 paragraphs, at most 150 words. Today's profiles on
-  isaqb.org have 60 to 230 words.
+- Description: short, at most 230 words per language (hard limit, as
+  today's longest profiles on isaqb.org). The admin app refuses longer
+  texts.
+- The description is required in German and English, more languages
+  optional (see `raw/i18n.md`).
 - One logo, used both in the partner logo marquee and on the provider page:
   - PNG (transparent background preferred) or JPG; SVG welcome.
   - Landscape, at least 600 px wide (raster), at most 500 KB.
@@ -21,6 +24,9 @@ and got its login from the infrastructure or support role.
    only after a reviewer approves it.
 3. Reviewers are notified of every new change for review.
 4. Only infrastructure and support can delete a profile (for now).
+5. A suspended or departed provider's profile is hidden by hand by
+   infrastructure or support: no provider page, no logo in the marquee, no
+   login. Rare case; no automation.
 
 **Open.**
 - How reviewers are notified (email, GitHub notification, both).

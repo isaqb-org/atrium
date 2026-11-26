@@ -4,9 +4,9 @@ type: stakeholder
 title: "external IT support"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[STK-008-operator]]", "[[STK-013-technical-owner]]"]
+related: ["[[STK-008-operator]]", "[[STK-013-technical-owner]]", "[[FR-014-manage-provider-accounts]]"]
 tags: [stakeholder]
 aliases: ["IT service provider"]
 german: "externer IT-Support"

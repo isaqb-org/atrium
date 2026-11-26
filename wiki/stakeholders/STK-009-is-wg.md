@@ -4,9 +4,9 @@ type: stakeholder
 title: "iSAQB Infrastructure Working Group"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[STK-008-operator]]"]
+related: ["[[STK-008-operator]]", "[[FR-014-manage-provider-accounts]]"]
 tags: [stakeholder]
 aliases: ["IS-WG"]
 german: "Infrastruktur-Arbeitsgruppe"

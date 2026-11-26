@@ -90,6 +90,10 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[FR-008-operate-the-search-by-keyboard]]: Operate the search by keyboard
 - [[FR-009-offer-a-page-per-curriculum-version]]: Offer a page per curriculum version
 - [[FR-010-show-the-partner-logo-marquee]]: Show the partner logo marquee
+- [[FR-011-provider-profile-maintenance]]: Provider profile maintenance
+- [[FR-012-edit-the-own-provider-profile]]: Edit the own provider profile
+- [[FR-013-review-a-profile-change-before-publication]]: Review a profile change before publication
+- [[FR-014-manage-provider-accounts]]: Manage provider accounts
 
 ## Quality requirements
 
@@ -142,3 +146,4 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[SRC-019-curriculum-pages]]: Requirement: curriculum pages
 - [[SRC-020-public-static-site-for-the-atrium-dashboard]]: Public static site for the atrium dashboard
 - [[SRC-021-partner-logo-marquee]]: Requirements: partner logo marquee
+- [[SRC-022-provider-profile]]: Draft: training providers maintain their profile

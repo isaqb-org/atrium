@@ -4,9 +4,9 @@ type: goal
 title: "Multilingual platform"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-007-multilingual-platform]]"]
-related: ["[[DT-031-public-glossary]]", "[[DT-012-curriculum]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]", "[[FR-001-site-search]]"]
+related: ["[[DT-031-public-glossary]]", "[[DT-012-curriculum]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]", "[[FR-001-site-search]]", "[[FR-012-edit-the-own-provider-profile]]"]
 tags: [goal]
 stereotype: objective
 parent: ["[[GOAL-001-atrium-vision]]"]

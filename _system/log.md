@@ -49,3 +49,10 @@ greppable: `grep '^## \[' _system/log.md | tail -5`.
 - Created: FR-010 (show the partner logo marquee), QR-002 (every JavaScript feature has a fallback), DT-037 partner logo marquee.
 - Updated: GOAL-009 (n counts providers, term link), ISS-011 (resolved); DT-016, DT-028, DT-030, FR-001, FR-002, GOAL-002, GOAL-006, STK-001, ISS-004 (reciprocal links).
 - Closing round answered one by one: FR-010 stays Should (launch without the marquee is acceptable); a provider with several companies chooses its one logo and maintains it with its profile, checked by a reviewer. No issues raised.
+
+## [2026-11-26] capture | Provider profile maintenance (SRC-022)
+- Source: `raw/provider-profile.md`, archived to `raw/ingested/`. Grill gate run: ISS-004 stays open, the requirements hold if profiles stay in atrium and otherwise apply to DIWAN; "infrastructure" and "support" act in the operator role (is-wg, external IT support), for now; "PR" is a possible implementation, how reviews and notifications work is an architecture decision; description required in German and English, hard limit 230 words per language; suspended providers hidden by hand by the operator.
+- Created: FR-011 (feature) with stories FR-012 (edit own profile), FR-013 (review before publication), FR-014 (manage provider accounts).
+- Updated: DT-029, DT-030 (content); DT-002, DT-003, DT-006, DT-037, GOAL-005, STK-001, STK-008, STK-009, STK-010, ISS-004 (reciprocal links).
+- Raw: `raw/i18n.md` added at the human's request (profile languages, language switcher placeholder), not captured.
+- Closing round answered one by one: FR-011 to FR-014 stay Should, the editorial team or the operator enters profiles until self-service exists; FR-011 success metrics: complete German and English profiles at launch, 90 % of changes reviewed within 5 working days; a rejection always carries a reason. No issues raised.

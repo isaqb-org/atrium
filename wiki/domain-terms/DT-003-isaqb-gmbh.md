@@ -4,9 +4,9 @@ type: domain-term
 title: "iSAQB GmbH"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-001-isaqb]]", "[[DT-002-isaqb-association]]", "[[DT-033-content-contributor]]", "[[STK-007-editorial-team]]"]
+related: ["[[DT-001-isaqb]]", "[[DT-002-isaqb-association]]", "[[DT-033-content-contributor]]", "[[STK-007-editorial-team]]", "[[FR-014-manage-provider-accounts]]"]
 tags: ["domain-term", "organisation"]
 aliases: ["GmbH", "iSAQB office"]
 german: 
