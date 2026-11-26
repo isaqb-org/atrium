@@ -4,9 +4,9 @@ type: goal
 title: "Technical excellence of the running site"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-008-technical-excellence]]"]
-related: ["[[GOAL-007-openness-of-code-and-architecture]]", "[[GOAL-008-low-cost-of-ownership]]", "[[ISS-010-quality-requirements-missing-for-five-qualities]]"]
+related: ["[[GOAL-007-openness-of-code-and-architecture]]", "[[GOAL-008-low-cost-of-ownership]]", "[[ISS-010-quality-requirements-missing-for-five-qualities]]", "[[FR-010-show-the-partner-logo-marquee]]"]
 tags: [goal]
 stereotype: objective
 parent: ["[[GOAL-001-atrium-vision]]"]

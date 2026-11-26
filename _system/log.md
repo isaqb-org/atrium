@@ -43,3 +43,9 @@ greppable: `grep '^## \[' _system/log.md | tail -5`.
 - Created: DR-001 (publish the whole wiki as a public static site), ISS-012 (does the showcase need pages of its own), resolved in the closing round: tagline, about page and brand are enough, the config-only rule goes into DR-001.
 - Updated: GOAL-007, STK-003, STK-011, STK-012, STK-013 (reciprocal links).
 - Follow-up: PR with the `site:` block in `_system/wiki.yaml`, the AGENTS.md export exception and the dashboard update, once the dashboard release with the export exists.
+
+## [2026-11-26] capture | Partner logo marquee (SRC-021)
+- Source: `raw/partner-logo-laufband.md` (German, by the atrium team, partly reverse-engineered from the current isaqb.org start page), moved out of the repository by the human's choice; captured from the English short version `raw/partner-logo-marquee.md` without personal or provider names, archived to `raw/ingested/`. Grill gate run: one logo per provider and the fairness metric counting providers (ISS-011 resolved by the human); no static-site constraint, but every JavaScript feature needs a fallback; load time measured by GOAL-006; one story instead of a feature.
+- Created: FR-010 (show the partner logo marquee), QR-002 (every JavaScript feature has a fallback), DT-037 partner logo marquee.
+- Updated: GOAL-009 (n counts providers, term link), ISS-011 (resolved); DT-016, DT-028, DT-030, FR-001, FR-002, GOAL-002, GOAL-006, STK-001, ISS-004 (reciprocal links).
+- Closing round answered one by one: FR-010 stays Should (launch without the marquee is acceptable); a provider with several companies chooses its one logo and maintains it with its profile, checked by a reviewer. No issues raised.

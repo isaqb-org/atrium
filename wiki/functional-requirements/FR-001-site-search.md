@@ -4,9 +4,9 @@ type: functional-requirement
 title: "Site search"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-011-site-search]]"]
-related: ["[[DT-036-site-search]]", "[[DT-034-content-tag]]", "[[DT-031-public-glossary]]", "[[DT-032-module-page]]", "[[DT-035-curriculum-page]]", "[[DT-028-training-finder]]", "[[GOAL-005-multilingual-platform]]", "[[STK-007-editorial-team]]", "[[STK-012-product-owner]]"]
+related: ["[[DT-036-site-search]]", "[[DT-034-content-tag]]", "[[DT-031-public-glossary]]", "[[DT-032-module-page]]", "[[DT-035-curriculum-page]]", "[[DT-028-training-finder]]", "[[GOAL-005-multilingual-platform]]", "[[STK-007-editorial-team]]", "[[STK-012-product-owner]]", "[[QR-002-every-javascript-feature-has-a-fallback]]"]
 tags: [functional-requirement, site-search]
 notation: agile
 level: epic

@@ -41,6 +41,7 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[DT-034-content-tag]]: content tag
 - [[DT-035-curriculum-page]]: curriculum page
 - [[DT-036-site-search]]: site search
+- [[DT-037-partner-logo-marquee]]: partner logo marquee
 
 ## Goals
 
@@ -88,10 +89,12 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[FR-007-search-all-public-content]]: Search all public content
 - [[FR-008-operate-the-search-by-keyboard]]: Operate the search by keyboard
 - [[FR-009-offer-a-page-per-curriculum-version]]: Offer a page per curriculum version
+- [[FR-010-show-the-partner-logo-marquee]]: Show the partner logo marquee
 
 ## Quality requirements
 
 - [[QR-001-search-popup-keeps-up-with-typing]]: Search popup keeps up with typing
+- [[QR-002-every-javascript-feature-has-a-fallback]]: Every JavaScript feature has a fallback
 
 ## Constraints
 
@@ -138,3 +141,4 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[SRC-018-search-by-keyboard]]: Story: use the search by keyboard
 - [[SRC-019-curriculum-pages]]: Requirement: curriculum pages
 - [[SRC-020-public-static-site-for-the-atrium-dashboard]]: Public static site for the atrium dashboard
+- [[SRC-021-partner-logo-marquee]]: Requirements: partner logo marquee

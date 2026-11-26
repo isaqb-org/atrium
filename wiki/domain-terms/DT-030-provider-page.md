@@ -4,9 +4,9 @@ type: domain-term
 title: "provider page"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-027-atrium]]", "[[DT-016-training-provider]]", "[[DT-020-training-date]]", "[[DT-029-admin-app]]", "[[DT-006-reviewer]]", "[[DT-028-training-finder]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[STK-001-training-provider]]", "[[DT-034-content-tag]]"]
+related: ["[[DT-027-atrium]]", "[[DT-016-training-provider]]", "[[DT-020-training-date]]", "[[DT-029-admin-app]]", "[[DT-006-reviewer]]", "[[DT-028-training-finder]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[STK-001-training-provider]]", "[[DT-034-content-tag]]", "[[FR-010-show-the-partner-logo-marquee]]", "[[DT-037-partner-logo-marquee]]"]
 tags: ["domain-term", "atrium"]
 aliases: ["provider profile"]
 german: "Anbieterseite"

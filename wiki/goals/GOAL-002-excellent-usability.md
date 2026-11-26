@@ -4,9 +4,9 @@ type: goal
 title: "Excellent usability for every audience"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-004-excellent-usability]]", "[[SRC-011-site-search]]"]
-related: ["[[DT-031-public-glossary]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[ISS-008-core-tasks-for-alumni-members-and-employers]]", "[[ISS-009-keep-clear-path-to-certification-as-objective]]"]
+related: ["[[DT-031-public-glossary]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[ISS-008-core-tasks-for-alumni-members-and-employers]]", "[[ISS-009-keep-clear-path-to-certification-as-objective]]", "[[QR-002-every-javascript-feature-has-a-fallback]]"]
 tags: [goal]
 stereotype: objective
 parent: ["[[GOAL-001-atrium-vision]]"]

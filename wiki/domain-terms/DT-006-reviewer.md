@@ -4,9 +4,9 @@ type: domain-term
 title: "reviewer"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-001-domain-terms]]"]
-related: ["[[DT-033-content-contributor]]", "[[DT-029-admin-app]]", "[[DT-030-provider-page]]", "[[DT-013-accreditation]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[STK-007-editorial-team]]"]
+related: ["[[DT-033-content-contributor]]", "[[DT-029-admin-app]]", "[[DT-030-provider-page]]", "[[DT-013-accreditation]]", "[[ISS-004-provider-profiles-in-atrium-or-diwan]]", "[[STK-007-editorial-team]]", "[[FR-010-show-the-partner-logo-marquee]]"]
 tags: ["domain-term", "organisation"]
 aliases: ["iSAQB reviewer"]
 german: 

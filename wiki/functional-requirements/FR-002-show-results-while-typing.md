@@ -4,9 +4,9 @@ type: functional-requirement
 title: "Show results while typing"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-012-results-while-typing]]"]
-related: ["[[QR-001-search-popup-keeps-up-with-typing]]", "[[DT-034-content-tag]]", "[[FR-003-show-all-results-on-a-results-page]]"]
+related: ["[[QR-001-search-popup-keeps-up-with-typing]]", "[[DT-034-content-tag]]", "[[FR-003-show-all-results-on-a-results-page]]", "[[QR-002-every-javascript-feature-has-a-fallback]]"]
 tags: [functional-requirement, site-search]
 notation: agile
 level: story
