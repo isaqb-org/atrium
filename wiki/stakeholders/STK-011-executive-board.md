@@ -4,9 +4,9 @@ type: stakeholder
 title: "executive board"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[DT-002-isaqb-association]]", "[[DT-005-general-meeting]]", "[[DT-004-member]]", "[[STK-012-product-owner]]", "[[ISS-007-english-labels-of-member-types]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]", "[[ISS-011-how-providers-with-several-companies-count]]"]
+related: ["[[DT-002-isaqb-association]]", "[[DT-005-general-meeting]]", "[[DT-004-member]]", "[[STK-012-product-owner]]", "[[ISS-007-english-labels-of-member-types]]", "[[GOAL-009-fairness-towards-providers-and-trainers]]", "[[ISS-011-how-providers-with-several-companies-count]]", "[[DR-001-publish-the-whole-wiki-as-a-public-static-site]]"]
 tags: [stakeholder]
 aliases: ["iSAQB board", "board"]
 german: "Vorstand"

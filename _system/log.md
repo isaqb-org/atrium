@@ -37,3 +37,9 @@ greppable: `grep '^## \[' _system/log.md | tail -5`.
 - Created: FR-001 (epic) to FR-008 (stories), FR-009 (curriculum pages), QR-001 (popup latency), DT-034 content tag, DT-035 curriculum page, DT-036 site search.
 - Updated: DT-012, DT-028, DT-032, GOAL-002 (content: versions, curriculum page link, hand-over, search core task); DT-002, DT-004, DT-020, DT-030, DT-031, GOAL-005, STK-007, STK-012, STK-014 (reciprocal links).
 - Closing round answered one by one (2026-11-26): start and legal pages get main tag Organisation, the finder page Training date; curriculum pages only for the upcoming, current and previous version, since exams are taken against the current version (apart from a grace period of a few weeks after a new Foundation Level curriculum); the Expert Level has no curriculum (DT-010, DT-012 corrected) and its page gets main tag Module; FR-009 raised to Must; search shortcuts `/` and `Ctrl+K`/`Cmd+K`. No issues raised.
+
+## [2026-11-26] capture | Public static site for the atrium dashboard (SRC-020)
+- Source: `raw/2026-11-25-public-static-site-for-the-atrium-dashboard.md`, archived to `raw/ingested/`. Grill gate run: a decision record, not a product requirement; DR-001 records what is published, the build approach stays with the dashboard; decision-makers product owner and technical owner by role; accepted, decided 2026-11-25.
+- Created: DR-001 (publish the whole wiki as a public static site), ISS-012 (does the showcase need pages of its own), resolved in the closing round: tagline, about page and brand are enough, the config-only rule goes into DR-001.
+- Updated: GOAL-007, STK-003, STK-011, STK-012, STK-013 (reciprocal links).
+- Follow-up: PR with the `site:` block in `_system/wiki.yaml`, the AGENTS.md export exception and the dashboard update, once the dashboard release with the export exists.

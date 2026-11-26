@@ -99,6 +99,8 @@ every capture (`_system/workflows/capture.md`, step 7).
 
 ## Decisions
 
+- [[DR-001-publish-the-whole-wiki-as-a-public-static-site]]: Publish the whole wiki as a public static site
+
 ## Issues
 
 - [[ISS-001-what-does-diwan-stand-for]]: What does the name DIWAN stand for?
@@ -112,6 +114,7 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[ISS-009-keep-clear-path-to-certification-as-objective]]: Does the clear path to certification stay an objective, and who defines the correct next step?
 - [[ISS-010-quality-requirements-missing-for-five-qualities]]: Quality requirements missing for security, modularity, extensibility, flexibility and maintainability by volunteers
 - [[ISS-011-how-providers-with-several-companies-count]]: Does a provider with several companies count once or once per company?
+- [[ISS-012-does-the-showcase-need-pages-of-its-own]]: Does the public wiki site need pages of its own, beyond tagline, about page and brand?
 
 ## Sources
 
@@ -134,3 +137,4 @@ every capture (`_system/workflows/capture.md`, step 7).
 - [[SRC-017-search-all-public-content]]: Story: search all public content
 - [[SRC-018-search-by-keyboard]]: Story: use the search by keyboard
 - [[SRC-019-curriculum-pages]]: Requirement: curriculum pages
+- [[SRC-020-public-static-site-for-the-atrium-dashboard]]: Public static site for the atrium dashboard

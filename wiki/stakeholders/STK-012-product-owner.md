@@ -4,9 +4,9 @@ type: stakeholder
 title: "product owner"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[STK-013-technical-owner]]", "[[STK-011-executive-board]]", "[[DT-026-diwan]]", "[[FR-001-site-search]]"]
+related: ["[[STK-013-technical-owner]]", "[[STK-011-executive-board]]", "[[DT-026-diwan]]", "[[FR-001-site-search]]", "[[DR-001-publish-the-whole-wiki-as-a-public-static-site]]", "[[ISS-012-does-the-showcase-need-pages-of-its-own]]"]
 tags: [stakeholder]
 aliases: ["PO"]
 german: "Product Owner"

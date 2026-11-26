@@ -4,9 +4,9 @@ type: goal
 title: "Openness of code and architecture"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-008-technical-excellence]]"]
-related: ["[[GOAL-006-technical-excellence-of-the-running-site]]"]
+related: ["[[GOAL-006-technical-excellence-of-the-running-site]]", "[[DR-001-publish-the-whole-wiki-as-a-public-static-site]]"]
 tags: [goal]
 stereotype: objective
 parent: ["[[GOAL-001-atrium-vision]]"]

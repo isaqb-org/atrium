@@ -4,9 +4,9 @@ type: stakeholder
 title: "technical owner"
 status: draft
 created: 2026-11-25
-updated: 2026-11-25
+updated: 2026-11-26
 sources: ["[[SRC-002-stakeholder-names]]"]
-related: ["[[STK-012-product-owner]]", "[[STK-008-operator]]", "[[STK-010-external-it-support]]", "[[DT-033-content-contributor]]", "[[ISS-010-quality-requirements-missing-for-five-qualities]]"]
+related: ["[[STK-012-product-owner]]", "[[STK-008-operator]]", "[[STK-010-external-it-support]]", "[[DT-033-content-contributor]]", "[[ISS-010-quality-requirements-missing-for-five-qualities]]", "[[DR-001-publish-the-whole-wiki-as-a-public-static-site]]"]
 tags: [stakeholder]
 aliases: ["TO", "architect"]
 german: "Technical Owner"
