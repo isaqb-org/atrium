@@ -47,6 +47,7 @@ jobs:
       - name: Assemble site folder
         env:
           CONTENT_REPO_URL: ${{ github.server_url }}/${{ github.repository }}
+          SITE_TITLE: iSAQB atrium
         run: atrium/.github/scripts/assemble-demo-site.sh "$RUNNER_TEMP/build" "$RUNNER_TEMP/site" atrium
 
       - name: Deploy to Netlify
