@@ -56,3 +56,7 @@ greppable: `grep '^## \[' _system/log.md | tail -5`.
 - Updated: DT-029, DT-030 (content); DT-002, DT-003, DT-006, DT-037, GOAL-005, STK-001, STK-008, STK-009, STK-010, ISS-004 (reciprocal links).
 - Raw: `raw/i18n.md` added at the human's request (profile languages, language switcher placeholder), not captured.
 - Closing round answered one by one: FR-011 to FR-014 stay Should, the editorial team or the operator enters profiles until self-service exists; FR-011 success metrics: complete German and English profiles at launch, 90 % of changes reviewed within 5 working days; a rejection always carries a reason. No issues raised.
+
+## [2026-11-26] edit | Only the Foundation Level exam is based on a curriculum
+- Source: correction by the human in the session. Advanced Level certification follows the exam rules (Prüfungsordnung) that iSAQB publishes on its website; atrium does not specify them.
+- Updated: DT-012 curriculum (definition, in context, distinguish from), DT-009 Advanced Level (exam not based on a curriculum), FR-009 (history note; the three curriculum pages still hold). DT-009 and DT-012 now link each other.

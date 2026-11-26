@@ -43,4 +43,4 @@ As a **certification prospect** I want **a page for each curriculum version**, s
 
 ## History
 
-> Added by the human during the site search capture, 2026-11-25. Pages limited to upcoming, current and previous version by the human, 2026-11-26: exams are taken against the current version, apart from a grace period of a few weeks after a new Foundation Level curriculum. Priority set to Must by the human, 2026-11-26.
+> Added by the human during the site search capture, 2026-11-25. Pages limited to upcoming, current and previous version by the human, 2026-11-26: exams are taken against the current version, apart from a grace period of a few weeks after a new Foundation Level curriculum. Priority set to Must by the human, 2026-11-26. Corrected by the human, 2026-11-26: only the Foundation Level exam is taken against a curriculum; the three versions still serve the Foundation Level exam and trainers updating their material.
